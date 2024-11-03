@@ -1128,10 +1128,6 @@
 		(at 180.34 49.53)
 		(uuid "ac381ee8-4caf-46a9-b2be-37fd96033cad")
 	)
-	(no_connect
-		(at 200.66 114.3)
-		(uuid "eb38c61d-72ee-4aa9-bed1-25f37b4d710d")
-	)
 	(wire
 		(pts
 			(xy 41.91 105.41) (xy 41.91 106.68)
@@ -1231,16 +1227,6 @@
 			(type default)
 		)
 		(uuid "310193ac-7465-47ae-88b4-01feba325f7d")
-	)
-	(wire
-		(pts
-			(xy 217.17 116.84) (xy 217.17 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3655e47b-53bc-4d1b-9421-96db41587040")
 	)
 	(wire
 		(pts
@@ -1694,16 +1680,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 116.84) (xy 217.17 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decf1674-e590-4551-aee9-ab0bb625c05c")
-	)
-	(wire
-		(pts
 			(xy 186.69 52.07) (xy 186.69 54.61)
 		)
 		(stroke
@@ -1756,7 +1732,7 @@
 	)
 	(rectangle
 		(start 137.16 85.09)
-		(end 226.06 144.78)
+		(end 181.61 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -1807,28 +1783,6 @@
 			)
 		)
 		(uuid "84db480e-25c0-43fa-9b67-81e73807546d")
-	)
-	(global_label "TH_CS2"
-		(shape input)
-		(at 200.66 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06afd5a7-f52d-4000-9b60-8241df42f7bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3904 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "TH_CS1"
 		(shape input)
@@ -1887,28 +1841,6 @@
 		(uuid "34ab6066-2fe6-4f9a-a58d-1cd7c4496b27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.8057 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TH_CLK2"
-		(shape input)
-		(at 200.66 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3905a642-2598-4164-ae6b-15736d12e037")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.479 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,28 +2072,6 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 200.66 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c68d3492-d381-429a-a54f-bf0b1557a723")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.1528 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
 		(at 156.21 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2261,28 +2171,6 @@
 		(uuid "f17c3738-95c1-4cb5-b2dc-2a3ede2c51b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.5695 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TH_DO/MISO2"
-		(shape input)
-		(at 200.66 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fea6b931-8958-49e0-b9d4-02ef2fb936e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.4381 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,72 +2590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 217.17 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "167ffc8a-b0a0-4c83-8123-8005ebd7b270")
-		(property "Reference" "#PWR0410"
-			(at 217.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fce6dfd-3bbb-4061-8456-0d592afa907a")
-		)
-		(instances
-			(project "Control board"
-				(path "/6b719a6f-98b6-4640-9cd1-4a8629bcea26/242afb16-88c6-4866-9e7e-c177618609e8"
-					(reference "#PWR0410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 87.63 110.49 0)
 		(unit 1)
@@ -2785,7 +2607,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FLOW SENSOR 1"
+		(property "Value" "FLOW SENSOR 2"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -3694,85 +3516,6 @@
 			(project "Control board"
 				(path "/6b719a6f-98b6-4640-9cd1-4a8629bcea26/242afb16-88c6-4866-9e7e-c177618609e8"
 					(reference "J407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 195.58 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ad3af8b-f56d-48c9-a03d-a063e9aeab4f")
-		(property "Reference" "J408"
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "THERMOCOUPLE 2"
-			(at 195.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b3bfe7e-18a9-4cbc-8b9a-0813f9ac511f")
-		)
-		(pin "3"
-			(uuid "e2daec7c-29f0-4575-a973-84b0fb5e60cc")
-		)
-		(pin "4"
-			(uuid "683008d1-8b02-45f1-9b14-316abda0a39b")
-		)
-		(pin "6"
-			(uuid "774bf4e7-96e7-4acd-9a72-45dd92537477")
-		)
-		(pin "5"
-			(uuid "1e35cd72-d394-45b1-9ec6-5ffa46beac7f")
-		)
-		(pin "1"
-			(uuid "374e34b4-3205-4617-8bca-bd34ba07b9f2")
-		)
-		(instances
-			(project "Control board"
-				(path "/6b719a6f-98b6-4640-9cd1-4a8629bcea26/242afb16-88c6-4866-9e7e-c177618609e8"
-					(reference "J408")
 					(unit 1)
 				)
 			)
