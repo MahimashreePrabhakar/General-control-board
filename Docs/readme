@@ -1,1 +1,22 @@
+# General STM32H7 based control board
+### Repository contains the files for the Control board. 
+Folder Structure Conventions
+============================
+
+> Folder structure options and naming conventions 
+
+### A typical top-level directory layout
+
+    .
+    ├── CAD                     # Contains all the 3D models and step files required
+    ├── docs                    # Documentation files : All datasheets
+    ├── Firmware                # Contains 2 folders, for GUI 
+    ├── Hardware                # Contains all the files for controller programming
+    ├── Production              # Contains all the files needed for production, Gerberes,Drill files and Schematics
+    ├── Simulation              # Contains all analysis files
+    └── README.md
+
+> Use short lowercase names at least for the top-level files and folders except
+> `LICENSE`, `README.md`
+
 
