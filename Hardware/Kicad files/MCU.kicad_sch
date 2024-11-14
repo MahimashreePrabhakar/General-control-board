@@ -4929,10 +4929,6 @@
 		(uuid "9e887b02-7646-4131-9eb2-12093723bea0")
 	)
 	(no_connect
-		(at 191.77 53.34)
-		(uuid "9f43f572-f27a-4c53-a48f-0ec5c0f7a54a")
-	)
-	(no_connect
 		(at 194.31 135.89)
 		(uuid "a026d38f-550f-4a76-90c4-6586dec3c136")
 	)
@@ -5434,28 +5430,6 @@
 			)
 		)
 	)
-	(global_label "D1 IN"
-		(shape input)
-		(at 260.35 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "680fec4b-3b59-4ef5-82c7-a4d7e8441a69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.7176 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M2_EN"
 		(shape input)
 		(at 43.18 46.99 180)
@@ -5500,7 +5474,7 @@
 			)
 		)
 	)
-	(global_label "D2 IN"
+	(global_label "D1 IN"
 		(shape input)
 		(at 260.35 128.27 0)
 		(fields_autoplaced yes)
@@ -5510,7 +5484,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6f5659e4-c644-4b2b-bf83-c092eab5d5b9")
+		(uuid "753ef069-15b3-4cb0-a79c-89f3c5881ef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 268.7176 128.27 0)
 			(effects
@@ -5720,6 +5694,28 @@
 			)
 		)
 	)
+	(global_label "DE"
+		(shape input)
+		(at 191.77 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be62b322-381a-4445-8d80-c9015d80b821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.3658 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 260.35 110.49 0)
@@ -5804,6 +5800,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2 IN"
+		(shape input)
+		(at 260.35 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0cf53b7-501e-49d5-b5c5-f0acb7040926")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.7176 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

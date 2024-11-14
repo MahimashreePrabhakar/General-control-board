@@ -1,4 +1,4 @@
-23856930314526911
+23862122994987249
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96816,3 +96816,24 @@ SODFL3718X108N
 0
 2
 2
+footprints
+SOIC127P600X175-8N
+D0008A
+Integrated Circuit
+0
+8
+8
+footprints
+VREG_LM3940IMP-3.3_NOPB
+
+
+0
+4
+4
+footprints
+WL-SUMW_3535_153353XXAA350
+<B>WL-SUMW SMT Ultraviolet Ceramic Waterclear<BR></B><BR>Size: 3535, SMT<BR>L X W X H = 3.45mm X 3.45mm X 2.1mm
+
+0
+3
+3

@@ -1,39 +1,52 @@
-Reference,Value,Datasheet,Footprint,Qty,DNP
-"C501,C502,C503,C504",TPSD107K010H0065,~,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,4,
-"C601,C602,C603,C604,C605,C606,C607,C608,C609,C610,C611,C612,C613,C614,C615,C616",2.2uF 100V 1210,~,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,16,
-"D401,D402,D501,D502,D503,D504",SD0805S040S0R5,~,Diode_SMD:D_0805_2012Metric,6,
-"D601,D602,D603,D604,D605,D606",LED,~,LED_SMD:LED_0805_2012Metric,6,
-J301,M80-5402642,,footprints:HARWIN_M80-5402642,1,
-J401,FLOW SENSOR 1,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J402,LIGHT BARRIER 1,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J403,FLOW SENSOR 2,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J404,LIGHT BARRIER 2,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J405,LIGHT BARRIER 3,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J406,THERMOCOUPLE 1,~,Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,1,
-J407,LIGHT BARRIER 4,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J501,2604-1104,2604-1104,footprints:CONN4_2604-1104_WAG,1,
-J502,EXTRUDER 1 M,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J503,EXTRUDER 2 M,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J504,FEED 1 M,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J505,FEED 2 M,~,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,
-J601,LED 1,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J602,LED 3,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J603,HEATER,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J604,LED 2,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J605,LED 4,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J606,LL1 OUT,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J607,LL3 OUT,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J608,LL2 OUT,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-J609,LL4 OUT,~,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,
-Q601,IRLB8721PBF,http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591,Package_TO_SOT_THT:TO-220-3_Vertical,1,
-"R401,R402,R405,R406",10K,~,Resistor_SMD:R_0805_2012Metric,4,
-"R403,R404,R407,R408,R601",47K,~,Resistor_SMD:R_0805_2012Metric,5,
-"R602,R603,R604,R605",2.33K,~,Resistor_SMD:R_0805_2012Metric,4,
-R606,330 R,~,Resistor_SMD:R_0805_2012Metric,1,
-"R607,R608,R609,R610,R611",330R,~,Resistor_SMD:R_0805_2012Metric,5,
-"R612,R613,R614,R615",470R,~,Resistor_SMD:R_0805_2012Metric,4,
-"TP401,TP402",TestPoint,~,TestPoint:TestPoint_Pad_1.0x1.0mm,2,
-U201,NUCLEO-H753ZI,,Nucleo-H753ZI:MODULE_NUCLEO-H753ZI,1,
-U301,MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER,,footprints:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER,1,
-"U501,U502,U503,U504",TMC2209_SILENTSTEPSTICK,,footprints:MODULE_TMC2209_SILENTSTEPSTICK,4,
-"U601,U602,U603,U604",MAGIC-LDHM_172946001,,footprints:MAGIC-LDHM_172946001,4,
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C301","10Nf","~","Capacitor_SMD:C_0805_2012Metric","1",""
+"C302","0.47Uf","~","Capacitor_SMD:C_0805_2012Metric","1",""
+"C303","33Uf","~","Capacitor_SMD:C_0805_2012Metric","1",""
+"C501,C502,C503,C504","TPSD107K010H0065","~","Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D","4",""
+"C601,C602,C603,C604,C605,C606,C607,C608,C609,C610,C611,C612,C613,C614,C615,C616","2.2uF 100V 1210","~","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","16",""
+"D401,D402,D501,D502,D503,D504","SD0805S040S0R5","~","Diode_SMD:D_0805_2012Metric","6",""
+"D403","RED","~","LED_SMD:LED_0805_2012Metric","1",""
+"D404","BLUE","~","LED_SMD:LED_0805_2012Metric","1",""
+"D405","GREEN","~","LED_SMD:LED_0805_2012Metric","1",""
+"D406","YELLOW","~","LED_SMD:LED_0805_2012Metric","1",""
+"D601,D602,D603,D604,D605,D606","LED","~","LED_SMD:LED_0805_2012Metric","6",""
+"IC301","THVD1330DR","https://www.ti.com/lit/ds/symlink/thvd1330.pdf?ts=1712661776557&ref_url=https%253A%252F%252Fwww.mouser.de%252F","footprints:SOIC127P600X175-8N","1",""
+"J301","M80-5402642","","footprints:HARWIN_M80-5402642","1",""
+"J401","FLOW SENSOR 1","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J402","LIGHT BARRIER 1","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J403","FLOW SENSOR 2","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J404","LIGHT BARRIER 2","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J405","LIGHT BARRIER 3","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J406","THERMOCOUPLE 1","~","Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical","1",""
+"J407","LIGHT BARRIER 4","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J501","2604-1104","2604-1104","footprints:CONN4_2604-1104_WAG","1",""
+"J502","EXTRUDER 1 M","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J503","EXTRUDER 2 M","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J504","FEED 1 M","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J505","FEED 2 M","~","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","1",""
+"J601","LED 1","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J602","LED 3","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J603","HEATER","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J604","LED 2","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J605","LED 4","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J606","LL1 OUT","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J607","LL3 OUT","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J608","LL2 OUT","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"J609","LL4 OUT","~","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","1",""
+"Q601","IRLB8721PBF","http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591","Package_TO_SOT_THT:TO-220-3_Vertical","1",""
+"R301","120R","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R401,R402,R405,R406","10K","~","Resistor_SMD:R_0805_2012Metric","4",""
+"R403,R404,R407,R408,R601","47K","~","Resistor_SMD:R_0805_2012Metric","5",""
+"R409","1.2K 1/2W","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R410","620R","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R411","220R","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R412","130R","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R602,R603,R604,R605","2.33K","~","Resistor_SMD:R_0805_2012Metric","4",""
+"R606","330 R","~","Resistor_SMD:R_0805_2012Metric","1",""
+"R607,R608,R609,R610,R611","330R","~","Resistor_SMD:R_0805_2012Metric","5",""
+"R612,R613,R614,R615","470R","~","Resistor_SMD:R_0805_2012Metric","4",""
+"TP401,TP402","TestPoint","~","TestPoint:TestPoint_Pad_1.0x1.0mm","2",""
+"U201","NUCLEO-H753ZI","","Nucleo-H753ZI:MODULE_NUCLEO-H753ZI","1",""
+"U501,U502,U503,U504","TMC2209_SILENTSTEPSTICK","","footprints:MODULE_TMC2209_SILENTSTEPSTICK","4",""
+"U601,U602,U603,U604","MAGIC-LDHM_172946001","","footprints:MAGIC-LDHM_172946001","4",""
+"VR301","LM3940IMP-3.3_NOPB","","footprints:VREG_LM3940IMP-3.3_NOPB","1",""
