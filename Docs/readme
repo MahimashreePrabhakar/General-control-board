@@ -10,7 +10,7 @@ Folder Structure Conventions
     .
     ├── CAD                     # Contains all the 3D models and step files required
     ├── docs                    # Documentation files : All datasheets
-    ├── Firmware                # Contains 2 folders, for GUI 
+    ├── Firmware                # Contains all programming files
     ├── Hardware                # Contains all the files for controller board
     ├── Production              # Contains all the files needed for production, Gerberes,Drill files and Schematics
     ├── Simulation              # Contains all analysis files
